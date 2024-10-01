@@ -1,0 +1,10 @@
+html {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: black;
+}
+
+h1,
+p {
+  color: white;
+}
