@@ -3,7 +3,6 @@ body {
 }
 #header {
   height: 10vh;
-  text-align: center;
   background-color: darkred;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
@@ -14,7 +13,7 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center
 }
 .box {
   background-color: #5a5858;
