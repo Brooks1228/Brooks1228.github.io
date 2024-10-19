@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column
 }
 .container {
   display: flex;
@@ -34,8 +34,3 @@ p.about {
 h1.header {
   margin: 0;
 }
-a.header {
-  margin: 0;
-  color: black;
-}
-
