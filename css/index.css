@@ -2,18 +2,18 @@ body {
   background-color: gray;
 }
 #header {
-  height: 10vh;
+  height: 100px;
   background-color: darkred;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column
+  flex-direction: column;
 }
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center
+  justify-content: center;
 }
 .box {
   background-color: #5a5858;
