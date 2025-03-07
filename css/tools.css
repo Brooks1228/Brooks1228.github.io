@@ -1,25 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap");
 
 h1 {
-    font-family: "Sixtyfour Convergence", sans-serif;
+  font-family: "Sixtyfour Convergence", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "BLED" 0,
-    "SCAN" 0,
-    "XELA" 0,
-    "YELA" 0;
-    color: white;
-    text-align: center;
+  font-variation-settings: "BLED" 0, "SCAN" 0, "XELA" 0, "YELA" 0;
+  color: white;
+  text-align: center;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 div.container {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+a:active {
+  transform: scale(0.95);
 }
